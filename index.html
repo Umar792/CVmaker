@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="parent">
+      <div id="resume">
+        <h1>Your Persinal Information</h1>
+        <div class="img-area">
+          <div class="img">
+            <img src="img.png" alt="loadin error" />
+          </div>
+          <div class="fName">
+            <div class="input-tag">
+              <label for="fname" class="lable">Enter Your Full Name</label
+              ><br />
+              <input type="text" id="fname" onkeypress="myfunction()" />
+            </div>
+          </div>
+        </div>
+        <div class="email">
+          <label for="object">Enter Your Object</label><br />
+          <input type="text" id="object" onkeypress="object()" />
+        </div>
+        <div class="email">
+          <label for="mail">Enter Your Email </label><br />
+          <input type="email" id="mail" onkeypress="emailfunc()" />
+        </div>
+        <div class="email">
+          <label for="Adress">Enter Your Adress</label><br />
+          <input type="text" id="Adress" onkeypress="Adressfunc()" />
+        </div>
+        <div class="mob-cnic">
+          <div class="mob">
+            <label for="mob">Enter Your Mobile Number</label><br />
+            <input type="number" id="mob" onkeypress="mobfunc()" />
+          </div>
+          <div class="mob">
+            <label for="CNIC">Enter Your CNIC Number</label><br />
+            <input type="number" id="CNIC" onkeypress="CNICfunc()" />
+          </div>
+        </div>
+        <div class="mob-cnic">
+          <div class="mob">
+            <label for="mob">Enter Your Post-Code</label><br />
+            <input type="number" id="Code" onkeypress="Codefunc()" />
+          </div>
+          <div class="mob">
+            <label for="City">Enter Your City</label><br />
+            <input type="text" id="City" onkeypress="Cityfunc()" />
+          </div>
+          <div class="mob">
+            <label for="Gender">Enter Your Gender</label><br />
+            <input type="text" id="Gender" onkeypress="Genderfunc()"/>
+          </div>
+        </div>
+        <div class="email">
+          <label for="Qualification">Enter Your Qualification</label><br />
+          <input
+            type="text"
+            id="Qualification"
+            onkeypress="Qualificationfunc()"
+          />
+        </div>
+        <div class="email">
+          <label for="Experience">Your Work Experience</label><br />
+          <input type="text" id="Experience" onkeypress="Experiencefunc()" />
+        </div>
+      </div>
+      <!-- ========================== -->
+      <div class="rsume-data">
+        <div class="name-img1">
+          <div class="img">Your Imge</div>
+          <div class="fullName">
+            <h1 id="firstname">Your Full Name</h1>
+            <div class="adre">
+              <h4>Adress:</h4>
+              <p id="adress">Your Adress</p>
+            </div>
+            <br />
+            <span id="myemail">Example@gmail.com</span>
+            <span id="mobile">mobile number</span>
+            <span id="cnic">CNIC number</span>
+          </div>
+        </div>
+        <!-- ============= object  -->
+        <div class="object">
+          <h2>Object:</h2>
+          <p id="obj">Your Object is Here</p>
+        </div>
+        <div class="object">
+          <h2>Qualification:</h2>
+          <p id="education">Your Qualification is Here</p>
+        </div>
+        <div class="object">
+          <h2>Work Experience:</h2>
+          <p id="experience">Your Experience is Here</p>
+        </div>
+        <div class="gender">
+          <h2>Your Post-Code</h2>
+          <span id="code">Post-Code</span>
+          <h2>Your City</h2>
+          <span id="city">Your City</span>
+          <h2>Your Gender</h2>
+          <span id="gender">Your Gender</span>
+        </div>
+      </div>
+    </div>
+    <script src="style.js"></script>
+  </body>
+</html>

@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#parent {
+  display: flex;
+}
+#resume {
+  width: 50%;
+  border: 2px solid red;
+  padding: 30px 10px;
+  margin: 10px;
+}
+#resume h1 {
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+}
+.img-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img-area .img img {
+  width: 180px;
+  cursor: pointer;
+}
+.fName {
+  display: flex;
+  width: 60%;
+  margin: auto;
+}
+.fName input {
+  padding: 10px 15px;
+  margin: 5px 0px;
+  outline: none;
+  border: none;
+  width: 350px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.input-tag {
+  margin: 0px 10px;
+}
+
+.email {
+  margin: 10px 0px;
+}
+.email input {
+  margin: 5px 0px;
+  padding: 10px;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.email label {
+  font-size: 18px;
+}
+.mob-cnic {
+  display: flex;
+  margin: 15px 0px;
+  justify-content: space-between;
+}
+.mob {
+  width: 100%;
+}
+.mob input {
+  width: 98%;
+  margin: 5px 0px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.button {
+  text-align: center;
+}
+.button button {
+  padding: 5px 20px;
+  cursor: pointer;
+  font-size: 17px;
+  color: white;
+  background-color: black;
+  border-radius: 6px;
+}
+.button button:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+/* ================================================================ */
+.rsume-data {
+  border: 2px solid red;
+  width: 50%;
+  margin: 10px;
+  padding: 0px 0px;
+}
+.name-img1 {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.name-img1 .img {
+  width: 160px;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.fullName {
+  margin-left: 10px;
+}
+.fullName span {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 5px 5px;
+  padding: 5px 5px;
+}
+.fullName h1 {
+  margin: 10px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  padding: 6px 10px;
+}
+
+/* ========================= object  */
+.object {
+  padding: 10px;
+}
+.object h2 {
+  padding: 0px 5px;
+}
+.object p {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 5px;
+  margin: 5px 0px;
+}
+
+/* =========== adre  */
+.adre {
+  display: flex;
+  padding: 5px;
+}
+.adre h4 {
+  padding: 2px;
+}
+.adre p {
+  margin-left: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 2px;
+}
+.gender {
+  margin: 10px 10px;
+}
+.gender span {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 5px 5px;
+  padding: 5px 5px;
+  display: block;
+  padding: 10px 5px;
+  margin: 5px 0px;
+}
+.gender h2 {
+  padding: 0px 5px;
+}
